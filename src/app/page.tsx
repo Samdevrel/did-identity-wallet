@@ -351,7 +351,13 @@ export default function Home() {
             Built by <a href="https://x.com/samdevrel" className="text-purple-400 hover:underline">@samdevrel</a>
             {' • '}
             <a href="https://github.com/Samdevrel/did-identity-wallet" className="text-gray-400 hover:underline">Source Code</a>
-          </p>
+          <button
+            onClick={() => window.location.href = '/docs/overview'}
+            className="w-full py-4 bg-purple-500 text-white font-bold border-4 border-purple-400 hover:bg-purple-400 mb-4"
+          >
+            {buttonText}
+          </button>
+                    </p>
         </footer>
       </div>
     </main>
